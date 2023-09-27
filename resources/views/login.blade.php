@@ -81,7 +81,7 @@
                 <input type="submit" name='login'> 
             </div>
         </form>
-        <span><a href="signup.blade.php">Don't have an account? Signup here!</a></span>
+        <span><a href="/signup">Don't have an account? Signup here!</a></span>
     </div>
 
     

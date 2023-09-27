@@ -94,7 +94,7 @@
                 <input type="submit" name='signup'> 
             </div> 
         </form>
-        <span><a href="login.blade.php">Already have an account? Login here!</a></span>
+        <span><a href="/login">Already have an account? Login here!</a></span>
     </div>
 
     
