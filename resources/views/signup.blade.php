@@ -68,17 +68,18 @@
     </div>
     
     <div>
-        <form action=""> 
+        <form action="/signup" method="post"> 
+            @csrf
             <div>
                 <h2>Sign up here!</h2>
                 <label for="username">Username</label><br>
-                <input type="text" name='username' placeholder="please enter a username"><br>   
+                <input type="text" name='name' placeholder="please enter a username"><br>   
 
                 <label for="email">Email</label><br>         
                 <input type="text" name='email' placeholder="please enter a valid email address"><br> 
 
-                <label for="phone_number">Phone Number</label><br>         
-                <input type="text" name='phone_number' placeholder="please enter a valid phone no"><br> 
+                <label for="phone_no">Phone Number</label><br>         
+                <input type="text" name='phone_no' placeholder="please enter a valid phone no"><br> 
 
                 <label for="password">Password</label><br>    
                 <input type="password" name='password' placeholder="please enter a strong password"> <br> 
@@ -91,7 +92,7 @@
                 <option value="nigeria">Nigeria</option>
                 </select>
                 
-                <input type="submit" name='signup'> 
+                <input type="submit" name="signup" value="Signup"> 
             </div> 
         </form>
         <span><a href="/login">Already have an account? Login here!</a></span>

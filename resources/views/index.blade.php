@@ -65,9 +65,6 @@
         <li><a href="/">Services</a></li>
         <li><a href="/login">Log In</a></li>
         <li><a href="/signup">Sign Up</a></li>
-    </div>
-
-
-    
+    </div>    
 </body>
 </html>
